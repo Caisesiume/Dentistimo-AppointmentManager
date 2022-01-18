@@ -1,0 +1,28 @@
+{
+  "name": "project-16-project-booker",
+  "version": "0.0.1",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node ./src/test/websocket.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "DIT355-Team-16",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.13",
+    "mqtt": "^4.2.8",
+    "opossum": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
